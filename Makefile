@@ -1,4 +1,7 @@
 deploy:
-	ln -sf "$HOME"/vim-settings/config/.vimrc "$HOME"/.vimrc
+	bash scripts/deploy.sh
+
+install:
+	bash scripts/install.sh
 	
-.PHONY: deploy
+.PHONY: deploy install

@@ -3,7 +3,6 @@
 ![platform](https://img.shields.io/badge/platform-linux%20|%20macos-blue)
 [![shfmt](https://github.com/nomutin/vim-settings/actions/workflows/shfmt.yml/badge.svg)](https://github.com/nomutin/vim-settings/actions/workflows/shfmt.yml)
 [![actionlint](https://github.com/nomutin/vim-settings/actions/workflows/actionlint.yml/badge.svg)](https://github.com/nomutin/vim-settings/actions/workflows/actionlint.yml)
-[![markdownlint](https://github.com/nomutin/vim-settings/actions/workflows/markdownlint.yml/badge.svg)](https://github.com/nomutin/vim-settings/actions/workflows/markdownlint.yml)
 [![shellcheck](https://github.com/nomutin/vim-settings/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/nomutin/vim-settings/actions/workflows/shellcheck.yml)
 
 ローカル/リモートの vim 設定
@@ -33,4 +32,3 @@
 - copilot
 - pythonのlint
 - pythonのdocstring
-
