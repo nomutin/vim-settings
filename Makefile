@@ -3,5 +3,8 @@ deploy:
 
 install:
 	bash scripts/install.sh
-	
-.PHONY: deploy install
+
+init:
+	bash scripts/init.sh
+
+.PHONY: deploy install init
