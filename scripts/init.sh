@@ -3,8 +3,13 @@
 set -eu
 
 # vim-plugをインストール
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+VIM_PLUG_PATH=~/.vim/autoload/plug.vim
+if [ ! -f $VIM_PLUG_PATH ]; then
+  curl -fLo $VIM_PLUG_PATH --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+fi
 
 # ddc.vimのためにdenoをインストール
-curl -fsSL https://deno.land/x/install/install.sh | sh
+if ! command -v deno &>/dev/null; then
+  curl -fsSL https://deno.land/x/install/install.sh | sh
+fi
