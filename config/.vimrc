@@ -95,5 +95,6 @@ set noundofile
 "=====色関係====="
 syntax enable "ハイライトを有効化"
 syntax on     "ハイライトを有効化"
+set background=dark
 colorscheme gruvbox
 set t_Co=256
