@@ -1,0 +1,13 @@
+name: markdownlint
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  markdownlint:
+    name: Lint workflows
+    uses: DavidAnson/markdownlint-cli2-action@v9
+    with:
+      globs: '**/*.md'
