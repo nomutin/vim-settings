@@ -7,5 +7,5 @@ if [ ! -d vim-settings ]; then
 fi
 
 cd vim-settings
-make install
+make init
 make deploy

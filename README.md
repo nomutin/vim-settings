@@ -19,8 +19,6 @@ bash -c "$(curl https://raw.githubusercontent.com/nomutin/vim-settings/main/scri
 
 - colormapがlazyで行けるかどうか
 - リモートで動作するか
-- ローカルの旧環境の削除
-- リモートの旧環境の削除
 - githubで公開
 
 ### vim本体
