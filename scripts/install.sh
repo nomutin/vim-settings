@@ -9,3 +9,6 @@ fi
 cd vim-settings
 make init
 make deploy
+
+git clone https://github.com/github/copilot.vim.git \
+  ~/.vim/pack/github/start/copilot.vim
