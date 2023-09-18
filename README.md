@@ -17,14 +17,10 @@ bash -c "$(curl https://raw.githubusercontent.com/nomutin/vim-settings/main/scri
 
 ### 全体
 
-- colormapがlazyで行けるかどうか
 - リモートで動作するか
-- githubで公開
 
 ### vim本体
 
-- githubの状態を表示
-- ddcのテスト
 - copilot
 - pythonのlint
 - pythonのdocstring

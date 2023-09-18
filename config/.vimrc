@@ -1,3 +1,25 @@
+"=====Vim-Plug====="
+call plug#begin()
+    Plug 'preservim/nerdtree'
+    Plug 'Xuyuanp/nerdtree-git-plugin'
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
+    Plug 'morhetz/gruvbox'
+call plug#end()
+
+"=====NERDTree設定====="
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-e> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
+let g:NERDTreeShowHidden=1
+
+"=====vim-airline設定====="
+let g:airline#extensions#tabline#enabled = 1
+nmap <C-,> <Plug>AirlineSelectPrevTab
+nmap <C-.> <Plug>AirlineSelectNextTab
+let g:airline_theme="gruvbox"
+
 "===== 表示設定 ====="
 set number "行番号の表示"
 set title "編集中ファイル名の表示"
@@ -75,25 +97,3 @@ syntax enable "ハイライトを有効化"
 syntax on     "ハイライトを有効化"
 colorscheme gruvbox
 set t_Co=256
-
-"=====Vim-Plug====="
-call plug#begin()
-    Plug 'preservim/nerdtree'
-    Plug 'vim-airline/vim-airline'
-    Plug 'vim-airline/vim-airline-themes'
-    Plug 'morhetz/gruvbox'
-call plug#end()
-
-"=====NERDTree設定====="
-nnoremap <leader>n :NERDTreeFocus<CR>
-nnoremap <C-n> :NERDTree<CR>
-nnoremap <C-e> :NERDTreeToggle<CR>
-nnoremap <C-f> :NERDTreeFind<CR>
-let g:NERDTreeShowHidden=1
-
-"=====vim-airline設定====="
-let g:airline#extensions#tabline#enabled = 1
-nmap <C-,> <Plug>AirlineSelectPrevTab
-nmap <C-.> <Plug>AirlineSelectNextTab
-let g:airline_theme="gruvbox"
-
