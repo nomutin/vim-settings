@@ -1,11 +1,16 @@
 # Vim-Settings
-![platform](https://img.shields.io/badge/platform-linux%20|%20macos-gray)
+
+![platform](https://img.shields.io/badge/platform-linux%20|%20macos-blue)
+[![shfmt](https://github.com/nomutin/vim-settings/actions/workflows/shfmt.yml/badge.svg)](https://github.com/nomutin/vim-settings/actions/workflows/shfmt.yml)
+[![actionlint](https://github.com/nomutin/vim-settings/actions/workflows/actionlint.yml/badge.svg)](https://github.com/nomutin/vim-settings/actions/workflows/actionlint.yml)
+[![markdownlint](https://github.com/nomutin/vim-settings/actions/workflows/markdownlint.yml/badge.svg)](https://github.com/nomutin/vim-settings/actions/workflows/markdownlint.yml)
+[![shellcheck](https://github.com/nomutin/vim-settings/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/nomutin/vim-settings/actions/workflows/shellcheck.yml)
 
 ローカル/リモートの vim 設定
 
 ## Usage
 
-```
+```shell
 未定
 ```
 
@@ -17,7 +22,6 @@
 - colormapがlazyで行けるかどうか
 - リモートで動作するか
 - vim-plugのインストール
-- badgeの追加
 - ローカルの旧環境の削除
 - githubで公開
 
