@@ -10,18 +10,18 @@
 ## Usage
 
 ```shell
-未定
+bash -c "$(curl https://raw.githubusercontent.com/nomutin/vim-settings/main/scripts/install.sh)"
 ```
 
 ## Todo
 
 ### 全体
 
-- github actions動作確認
 - colormapがlazyで行けるかどうか
 - リモートで動作するか
 - vim-plugのインストール
 - ローカルの旧環境の削除
+- リモートの旧環境の削除
 - githubで公開
 
 ### vim本体
