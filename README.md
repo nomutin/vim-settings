@@ -19,7 +19,6 @@ bash -c "$(curl https://raw.githubusercontent.com/nomutin/vim-settings/main/scri
 
 - colormapがlazyで行けるかどうか
 - リモートで動作するか
-- vim-plugのインストール
 - ローカルの旧環境の削除
 - リモートの旧環境の削除
 - githubで公開
@@ -27,7 +26,6 @@ bash -c "$(curl https://raw.githubusercontent.com/nomutin/vim-settings/main/scri
 ### vim本体
 
 - githubの状態を表示
-- deinのインストール
 - ddcのテスト
 - copilot
 - pythonのlint
