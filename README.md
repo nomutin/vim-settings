@@ -8,3 +8,5 @@
 ```shell
 bash -c "$(curl https://raw.githubusercontent.com/nomutin/vim-settings/main/scripts/install.sh)"
 ```
+
+- vim-indent-guides

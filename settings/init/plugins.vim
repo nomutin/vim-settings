@@ -1,19 +1,36 @@
 call plug#begin()
-    Plug 'morhetz/gruvbox'
-    Plug 'preservim/nerdtree'
-    Plug 'Xuyuanp/nerdtree-git-plugin'
-    Plug 'vim-airline/vim-airline'
-    Plug 'vim-airline/vim-airline-themes'
-    Plug 'vim-denops/denops.vim'
-    Plug 'Shougo/ddc.vim'
-    Plug 'mattn/vim-lsp-settings'
-    Plug 'Shougo/pum.vim'                         " ポップアップウィンドウを表示するプラグイン
-    Plug 'Shougo/ddc-around'                      " カーソル周辺の既出単語を補完するsource
-    Plug 'LumaKernel/ddc-file'                    " ファイル名を補完するsource
-    Plug 'Shougo/ddc-matcher_head'                " 入力中の単語を補完の対象にするfilter
-    Plug 'Shougo/ddc-sorter_rank'                 " 補完候補を適切にソートするfilter
-    Plug 'Shougo/ddc-converter_remove_overlap'    " 補完候補の重複を防ぐためのfilter
+    " 全体系
+    Plug 'preservim/nerdtree'                         " ファイルツリー
+    Plug 'nathanaelkane/vim-indent-guides'            " インデントを可視化
+    Plug 'tpope/vim-commentary'                       " コメントアウトを楽に
+    Plug 'ctrlpvim/ctrlp.vim'                         " ctrl+p検索
+
+    " 見た目系
+    Plug 'ryanoasis/vim-devicons'                     " nerdtreeのアイコン
+    Plug 'morhetz/gruvbox'                            " 良い感じのカラーマップ
+    Plug 'vim-airline/vim-airline'                    " ステータスバーをかっこよくする
+    Plug 'vim-airline/vim-airline-themes'             " vim-airlineの色を変更
+
+    " git系
+    Plug 'Xuyuanp/nerdtree-git-plugin'                " nerdtreeにgitのstatusを表示
+    Plug 'airblade/vim-gitgutter'                     " ファイルにgit差分を表示
+    Plug 'tpope/vim-fugitive'                         " vim上でgit操作
+
+    " 言語系
+    Plug 'kannokanno/previm'                          " markdownのプレビュー
+
+    " 自動補完系
+    Plug 'vim-denops/denops.vim'                      " denoのvimエコシステム
+    Plug 'Shougo/ddc.vim'                             " 自動補完
+    Plug 'mattn/vim-lsp-settings'                     " LSPのインストール・検索を楽に
+    Plug 'Shougo/pum.vim'
+    Plug 'Shougo/ddc-around'
+    Plug 'LumaKernel/ddc-file'
+    Plug 'Shougo/ddc-matcher_head'
+    Plug 'Shougo/ddc-sorter_rank'
+    Plug 'Shougo/ddc-converter_remove_overlap'
     Plug 'prabirshrestha/vim-lsp'
     Plug 'shun/ddc-vim-lsp'
     Plug 'Shougo/ddc-ui-native'
+
 call plug#end()
