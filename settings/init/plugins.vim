@@ -4,6 +4,7 @@ call plug#begin()
     Plug 'nathanaelkane/vim-indent-guides'            " インデントを可視化
     Plug 'tpope/vim-commentary'                       " コメントアウトを楽に
     Plug 'ctrlpvim/ctrlp.vim'                         " ctrl+p検索
+    Plug 'higashi000/dps-kakkonan'                    " カッコの対応を表示
 
     " 見た目系
     Plug 'ryanoasis/vim-devicons'                     " nerdtreeのアイコン
