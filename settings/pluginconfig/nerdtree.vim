@@ -1,5 +1,3 @@
 nnoremap <leader>n :NERDTreeFocus<CR>
-nnoremap <C-e> :NERDTree<CR>
-nnoremap <C-n> :NERDTreeToggle<CR>
-nnoremap <C-f> :NERDTreeFind<CR>
 let g:NERDTreeShowHidden=1
+autocmd VimEnter * if !argc() | NERDTree | endif " open NERDTree if no files are specified
