@@ -12,4 +12,7 @@ fi
 # ddc.vimのためにdenoをインストール
 if ! command -v deno &>/dev/null; then
   curl -fsSL https://deno.land/x/install/install.sh | sh
+  echo 'export DENO_INSTALL="$HOME/.deno"' >> ~/.bashrc
+  echo 'export PATH="$DENO_INSTALL/bin:$PATH"' >> ~/.bashrc
+  source ~/.bashrc
 fi

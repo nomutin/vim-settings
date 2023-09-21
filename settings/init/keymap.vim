@@ -4,8 +4,8 @@ inoremap <C-k> <Up>
 inoremap <C-h> <Left>
 inoremap <C-l> <Right>
 
-inoremap <silent> jj <Esc> "jjキーでノーマルモード"
-inoremap <silent> っj <Esc>
+inoremap <silent> ff <Esc> "ffキーでノーマルモード"
+inoremap <silent> っf <Esc>
 inoremap <C-x> <C-h>
 noremap <S-h> ^
 noremap <S-l> $
