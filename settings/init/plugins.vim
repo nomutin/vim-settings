@@ -7,6 +7,7 @@ call plug#begin()
     Plug 'higashi000/dps-kakkonan'                    " 対応する括弧を表示
     Plug 'yuttie/comfortable-motion.vim'              " スクロールを滑らかに
     Plug 'simeji/winresizer'                          " ウィンドウサイズを変更
+    Plug 'easymotion/vim-easymotion'                  " カーソル移動を楽に
 
     " 見た目系
     Plug 'ryanoasis/vim-devicons'                     " nerdtreeのアイコン

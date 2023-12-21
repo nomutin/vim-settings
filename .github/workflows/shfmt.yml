@@ -1,7 +1,7 @@
 name: shfmt
 
 on:
-  push:
+  pull_request:
     branches:
       - main
 
