@@ -12,6 +12,3 @@
 bash -c "$(curl https://raw.githubusercontent.com/nomutin/vim-settings/main/scripts/install.sh)"
 ```
 
-## Build vim from source
-
-If you want to install the latest Vim for your plugin, please refer to [this document](docs/HowToBuildVim.md).
