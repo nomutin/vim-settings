@@ -4,7 +4,7 @@ inoremap <C-k> <Up>
 inoremap <C-h> <Left>
 inoremap <C-l> <Right>
 
-inoremap <silent> ff <Esc> "ffキーでノーマルモード"
+inoremap <silent> ff <Esc>
 inoremap <silent> っf <Esc>
 inoremap <C-x> <C-h>
 noremap <S-h> ^
