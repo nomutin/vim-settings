@@ -2,7 +2,7 @@
 
 set -eu
 
-if [ ! -d vim-settings ]; then
+if [ ! -d .vim ]; then
   git clone https://github.com/nomutin/vim-settings.git .vim
 fi
 
